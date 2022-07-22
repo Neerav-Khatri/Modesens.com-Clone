@@ -1,0 +1,35 @@
+#cart{
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 80px;
+}
+#cart>p:nth-child(1){
+    /* margin-top: 80px; */
+    font-size: 25px;
+    font-weight: bold;
+}
+#cart>p:nth-child(2){
+    width: 50%;
+    margin: -10px auto auto auto;
+}
+#cart>p:nth-child(3){
+    margin-top: 100px;
+    font-size: 18px;
+}
+#cart>p:nth-child(4){
+    margin-top: -10px;
+    font-size: 18px;
+}
+#cart>img{
+    margin: 30px auto 50px auto;
+}
+#cart>div{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#cart>div>button{
+    color: white;
+    background-color: black;
+}
