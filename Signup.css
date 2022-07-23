@@ -1,0 +1,102 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#body{
+    height: 96vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#parent>div{
+    width: 70%;
+    margin: 20px auto 20px auto;
+}
+#parent>a>button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin: 10px 10px auto auto;
+    display: block;
+    cursor: pointer;
+}
+#parent>div>h3{
+    font-weight: lighter;
+    font-size: 20px;
+}
+#parent>div>p:nth-of-type(1){
+    width: 70%;
+    font-size: 15px;
+    margin: auto;
+}
+#parent>div>p:nth-of-type(2){
+    color: gray;
+    font-size: 14px;
+    width: 80%;
+    margin: 60px auto auto auto;
+}
+#parent>div>p:nth-of-type(2)>span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#parent>div>form>input:nth-of-type(1){
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+#parent>div>form>input:nth-of-type(2){
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+input[type=checkbox]{
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type=checkbox]+span{
+    font-size: 13px;
+}
+#parent>div>form>input[type=submit]{
+    font-size: 20px;
+    width: 100%;
+    margin: 20px auto 10px auto;
+    padding: 10px 0 10px 0;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#parent>div>form>input[type=submit]:hover{
+    background-color: gray;
+}
+#parent>div>hr+span{
+    position: relative;
+    top: -18px;
+    background-color: white;
+}
+#parent>div>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#parent>div>div>img{
+    cursor: pointer;
+}
+a{
+    color: gray;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:hover{
+    color: black;
+}
