@@ -46,7 +46,7 @@ h4+p+div{
 }
 #product>div>div>img{
     width: 60%;
-    /* margin-top: 10px; */
+    cursor: pointer;
 }
 #product>div>p:nth-child(2){
     font-size: 18px;
